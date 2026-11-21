@@ -2,7 +2,7 @@
 
 Outil Windows pour les robots FANUC, **en lecture seule** : il lit une sauvegarde (MD) ou le robot lui-même et en sort un audit complet en HTML.
 
-![ROBOGUIDETOOL 2026](docs/roboguidetool.png)
+![ROBOGUIDETOOL 2026](docs/image.png)
 
 ## Ce que fait l'outil
 
