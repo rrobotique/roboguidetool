@@ -6,7 +6,7 @@
 
 ## Français
 
-Outil Windows pour les robots FANUC, **en lecture seule** : il lit une sauvegarde (MD) ou le robot lui-même et en sort un audit complet en HTML.
+Outil Windows pour les robots FANUC : il lit une sauvegarde (MD) ou le robot lui-même et en sort un audit complet en HTML.
 
 ### Ce que fait l'outil
 
@@ -17,7 +17,7 @@ Outil Windows pour les robots FANUC, **en lecture seule** : il lit une sauvegard
 - Charges utiles, compteurs horaires, alarmes récurrentes, batteries
 - Connexion au robot ou à ROBOGUIDE par HTTP, KCL, FTP (SNPX et RMI en option)
 
-Aucune écriture sur le robot, aucune action sur la sécurité DCS.
+**L'audit est entièrement en lecture seule.** Quelques fonctions d'écriture existent en dehors de l'audit (registres, acquittement d'alarmes, affectations SNPX) : elles ne se déclenchent que sur action de l'utilisateur, avec une confirmation qui rappelle l'impact sur le robot. Aucune action sur la sécurité DCS.
 
 ### État du projet
 
@@ -32,7 +32,7 @@ Vos remarques et idées sont les bienvenues :
 
 ## English
 
-A Windows tool for FANUC robots, **read-only**: it reads a backup (MD) or the robot itself and produces a complete audit as HTML reports.
+A Windows tool for FANUC robots: it reads a backup (MD) or the robot itself and produces a complete audit as HTML reports.
 
 ### What the tool does
 
@@ -43,7 +43,7 @@ A Windows tool for FANUC robots, **read-only**: it reads a backup (MD) or the ro
 - Payloads, operating hours, recurring alarms, batteries
 - Connection to the robot or to ROBOGUIDE over HTTP, KCL, FTP (SNPX and RMI optional)
 
-Nothing is written to the robot and no action is taken on DCS safety.
+**The audit is entirely read-only.** A few write functions exist outside the audit (registers, alarm reset, SNPX assignments): they only run on an explicit user action, after a confirmation that recalls the impact on the robot. No action is taken on DCS safety.
 
 ### Project status
 
