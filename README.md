@@ -1,10 +1,14 @@
 # ROBOGUIDETOOL 2026
 
-Outil Windows pour les robots FANUC, **en lecture seule** : il lit une sauvegarde (MD) ou le robot lui-même et en sort un audit complet en HTML.
+[Français](#français) · [English](#english)
 
 ![ROBOGUIDETOOL 2026](docs/image.png)
 
-## Ce que fait l'outil
+## Français
+
+Outil Windows pour les robots FANUC, **en lecture seule** : il lit une sauvegarde (MD) ou le robot lui-même et en sort un audit complet en HTML.
+
+### Ce que fait l'outil
 
 - Fiche robot, registres, outils et repères, programmes et arbre des appels
 - Zones Space et DCS en 3D, cohérence Space / DCS, équations Safe I/O affichées en schéma
@@ -15,17 +19,44 @@ Outil Windows pour les robots FANUC, **en lecture seule** : il lit une sauvegard
 
 Aucune écriture sur le robot, aucune action sur la sécurité DCS.
 
-## État du projet
+### État du projet
 
 Projet en cours de développement. Ce dépôt sert pour l'instant de présentation : le but est de recueillir des avis avant d'aller plus loin.
 
-## Retours
+### Retours
 
 Vos remarques et idées sont les bienvenues :
 
 - par les [Issues](../../issues) de ce dépôt
 - par e-mail : rrobotique@proton.me
 
+## English
+
+A Windows tool for FANUC robots, **read-only**: it reads a backup (MD) or the robot itself and produces a complete audit as HTML reports.
+
+### What the tool does
+
+- Robot data sheet, registers, tools and user frames, programs and call tree
+- Space zones and DCS zones in 3D, Space / DCS consistency check, Safe I/O equations shown as a ladder-style diagram
+- Communication sheet (EtherNet/IP, PROFINET), UOP signals, background logic
+- Program checks: labels, jumps, WAIT without TIMEOUT, cross-references of registers and I/O
+- Payloads, operating hours, recurring alarms, batteries
+- Connection to the robot or to ROBOGUIDE over HTTP, KCL, FTP (SNPX and RMI optional)
+
+Nothing is written to the robot and no action is taken on DCS safety.
+
+### Project status
+
+Work in progress. For now this repository is a presentation only: the goal is to collect opinions before going further. The user interface and the reports are currently in French.
+
+### Feedback
+
+Comments and ideas are welcome:
+
+- through the [Issues](../../issues) of this repository
+- by e-mail: rrobotique@proton.me
+
 ---
 
+FANUC and ROBOGUIDE are trademarks of FANUC Corporation. This tool is an independent project, not affiliated with FANUC.
 FANUC et ROBOGUIDE sont des marques de FANUC Corporation. Cet outil est un projet indépendant, sans lien avec FANUC.
